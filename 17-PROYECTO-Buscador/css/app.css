@@ -1,7 +1,7 @@
 body {
-    background: #d76f00;
+   
 background: linear-gradient(270deg,#d76f00 0%, #131313 80%);
-background: -webkit-linear-gradient(270deg,#d76f00 0%, #131313 80%);
+background: -webkit-linear-gradient(270deg,#964e00 0%, #131313 80%);
 background: -moz-linear-gradient(270deg,#d76f00 0%, #131313 80%);
     font-family: 'Staatliches', cursive;
 }
@@ -13,6 +13,7 @@ h1 {
     font-size: 6rem;
     padding: 3rem 0;
     margin: 0;
+    color: black;
 }
 .contenedor {
     height: 100%;
@@ -63,7 +64,7 @@ form {
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 2rem;
 }
 .error {

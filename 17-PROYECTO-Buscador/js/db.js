@@ -170,5 +170,50 @@ const autos = [
         puertas: 4, 
         color: 'Azul', 
         transmision: 'automatico' 
-    }
+    },
+	{
+	marca: 'Audi', 
+	modelo: 'A4', 
+	year: 2022, 
+	precio: 50000, 
+	puertas: 2, 
+	color: 'Blanco', 
+	transmision: 'automatico' 
+},
+{
+	marca: 'BMW', 
+	modelo: 'Q7', 
+	year: 2023, 
+	precio: 70000, 
+	puertas: 2, 
+	color: 'Azul', 
+	transmision: 'automatico' 
+},
+{
+	marca: 'Mercedez Benz', 
+	modelo: 'clase At45', 
+	year: 2023, 
+	precio: 75000, 
+	puertas: 2, 
+	color: 'Rojo', 
+	transmision: 'automatico' 
+},
+{
+	marca: 'Ford', 
+	modelo: 'EcoSport 4x4', 
+	year: 2016, 
+	precio: 30000, 
+	puertas: 4, 
+	color: 'Negro', 
+	transmision: 'automatico' 
+},
+{
+	marca: 'Ford', 
+	modelo: 'Focus', 
+	year: 2017, 
+	precio: 27000, 
+	puertas: 4, 
+	color: 'Blanco', 
+	transmision: 'automatico' 
+},
 ];
