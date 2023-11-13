@@ -1,9 +1,7 @@
 body {
-   
-background: linear-gradient(270deg,#d76f00 0%, #131313 80%);
-background: -webkit-linear-gradient(270deg,#964e00 0%, #131313 80%);
-background: -moz-linear-gradient(270deg,#d76f00 0%, #131313 80%);
+background-image: url("autonaranja.jpg");
     font-family: 'Staatliches', cursive;
+    
 }
 html {
     font-size: 62.5%;
@@ -13,16 +11,27 @@ h1 {
     font-size: 6rem;
     padding: 3rem 0;
     margin: 0;
-    color: black;
+    color: rgb(243, 243, 243);
 }
+
+h2 {
+    font-family: 'Staatliches', cursive;
+    font-size: 6rem;
+    padding: 3rem 0;
+    margin: 0;
+    color: rgb(186, 81, 0);
+    text-align: center;
+}
+
 .contenedor {
+    opacity: 80%;
     height: 100%;
     border-radius: 10px;
     border: 1px solid black;
     box-shadow: 1px -2px 144px -49px rgba(0,0,0,0.98);
 -webkit-box-shadow: 1px -2px 144px -49px rgba(0,0,0,0.98);
 -moz-box-shadow: 1px -2px 144px -49px rgba(0,0,0,0.98);
-    background-color: rgb(237, 237, 237);
+    background-color: rgb(255, 255, 255);
     max-width: 1200px;
     min-height: 100vh;
     margin: 0 auto;
@@ -33,13 +42,15 @@ p {
 }
 h1, p {
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 form {
     
     max-width: 1100px;
     margin: 0 auto;
     padding: 4rem;
-    background: rgb(237, 237, 237);
+    background: rgb(255, 255, 255);
     margin-bottom: 10rem;
     font-family: Arial, Helvetica, sans-serif;
 }
